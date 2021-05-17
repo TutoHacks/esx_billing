@@ -1,5 +1,7 @@
 Config = {}
 Config.Locale = 'de' -- 'en' is possible too
+Config.Logs = true -- activate / deactivate billing logs
+Config.WebhookLogs = '' -- your discord webhook for the logs. NOT REQUIRED IF: Config.Logs = false
 Config.showBlip = true
 Config.Paystation = {
     {x = 447.21,  y = -987.9,  z = 30.69}, -- LSPD
